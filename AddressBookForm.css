@@ -2,31 +2,17 @@ html,
 input
 {
     box-sizing: border-box;
-    background-color: #f8f9fa;
 }
 
 body {
-    margin: 0;
+    margin: 0px;
     height: 100%;
-    background: #F7F7F7 0% 0% no-repeat padding-box;
+    background: #fcf9f58e 0% 0% no-repeat padding-box;
 }
-
-.form-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 0px solid #0089fa;
-    width: 50%;
-}
-
-.form-content-img {
-    border: solid 0px #0f0f0f;
-}
-
 
 .header {
-    padding: 15px 0;
-    background-color: #fff;
+    padding: 15px 0px;
+    background-color: rgb(255, 255, 255);
 }
 
 .header-content {
@@ -34,10 +20,23 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: 0px solid #008CFF;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid #0089fa;
+    width: 80%;
+}
+
+.form-content-img {
+    border: solid 0px #0f0f0f;
 }
 
 .address-text {
-    font: normal normal bold 15px/20px Montserrat;
+    font: normal normal bold 22px/25px Montserrat;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
     color: #0089fa;
@@ -47,3 +46,45 @@ body {
 .book-text {
     color: #070707;
 } 
+
+.person-form-content{
+    background-color: #00a2ff no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    border: 0px blueviolet;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100% - 80px);
+}
+
+.person-form{
+    width: 65%;
+    padding: 44px 60px;
+    border: 1px solid #b4aaaa;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px #ddd6d6de;
+    opacity: 1;
+}
+
+
+.person-form-header{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 65%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font: normal normal normal 22px/35px Montserrat;
+    letter-spacing: 1px;
+    background-color: #008CFF;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.cancel-button{
+    width: 50px;
+    padding: 60px;
+    align-items: flex-end;
+}
