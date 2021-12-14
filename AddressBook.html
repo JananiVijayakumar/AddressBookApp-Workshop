@@ -19,13 +19,65 @@
     </header>
         <div class="person-form-content">
             <div class="person-form-header">
-                <h3>Person Address Form</h3>
-                <a href="homePage.html" class="cancel-button"> <img src="cancellogo.png" alt=""></a>
+                <span>Person Address Form</span>
+                <span id="img"><a href="AddressBookhomePage.html" class="cancel-button"> <img src="cancellogo.png" height="20" width="20" alt=""></a></span>
             </div>
-            
-    
+            <label class="label text" for="name">Full Name</label>
+            <div class="row-content">
+                <input class="input" type="text" id="name" name="name" placeholder="Enter Name" required>
+            </div>
+
+            <label class="label text" for="phoneNumber">Phone Number</label>
+            <div class="form-details-content">
+                <input class="input" type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter Phone Number" required>
+            </div>
+
+            <label class="label text" for="Address">Address</label>
+            <div class="row-content">
+                <textarea class="input" name="Address" id="Address" rows="4" placeholder="Enter Address"></textarea>
+            </div>
+
+            <div class="row">
+                <div class="input-content">
+                    <label class="label text" for="City">City</label>
+                    <div class="row-content">
+                        <select class="input" name="City" id="City">
+                            <option value="">City</option>
+                            <option value="Trichy">Trichy</option>
+                            <option value="Madurai">Madurai</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Coimbatore">Coimbatore</option>
+                            <option value="Theni">Theni</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-content">
+                    <label class="label text" for="State">State</label>
+                    <div class="row-content">
+                        <select class="input" name="State" id="State">
+                            <option value="">State</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Puducherry">Puducherry</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Maharastra">Maharastra</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-content">
+                    <label class="label text" for="ZipCode">ZipCode</label>
+                    <div class="row-content">
+                        <input class="input" type="number" id="ZipCode" name="ZipCode" placeholder="Enter Zip Code" required>
+                    </div>
+                </div>
+            </div>
             </form>
         </div>
-    
 </body>
 </html> 
